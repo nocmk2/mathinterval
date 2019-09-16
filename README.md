@@ -6,6 +6,22 @@ parse math interval with golang
 ## Install
 go get github.com/nocmk2/mathinterval
 
+## Get Started
+``` golang
+package main
+
+import (
+	"fmt"
+
+	"github.com/nocmk2/mathinterval"
+)
+
+func main() {
+	res := mathinterval.Get("[-inf,100)").Hit(50)
+	fmt.Println(res)
+}
+```
+
 ## Example
 ``` golang
 func Example() {
