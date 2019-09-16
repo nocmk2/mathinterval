@@ -3,7 +3,6 @@
 
 parse math interval with golang
 
-
 ## Installing
 
 go get -u github.com/nocmk2/mathinterval
