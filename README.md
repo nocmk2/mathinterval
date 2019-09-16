@@ -3,14 +3,12 @@
 
 parse math interval with golang
 
-Getting Started
-===============
 
 ## Installing
 
 go get -u github.com/nocmk2/mathinterval
 
-## Get an expression and hitted by a value
+## how to use
 
 ``` golang
 package main
